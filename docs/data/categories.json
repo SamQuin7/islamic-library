@@ -1,0 +1,27 @@
+[
+  {
+    "id": "quran",
+    "name": "Tafsir & Quran Sciences",
+    "description": "Contextual notes, sciences of the book, and study tools for each surah."
+  },
+  {
+    "id": "refutations",
+    "name": "Refuting Arguments Against the Quran",
+    "description": "Calmly dismantle objections with chains of evidence, logic, and context."
+  },
+  {
+    "id": "hadith",
+    "name": "Hadith Collection",
+    "description": "Placeholder entries demonstrating how to store narrations and commentary."
+  },
+  {
+    "id": "comparative",
+    "name": "Comparative Religion",
+    "description": "Summaries comparing core beliefs in a neutral, informative tone."
+  },
+  {
+    "id": "shubuhat",
+    "name": "Shubuhat & Responses",
+    "description": "Common doubts with references, evidences, and live-response talking points."
+  }
+]
