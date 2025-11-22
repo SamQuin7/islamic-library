@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1"
+    />
+    <title>The Islamic Knowledge Library</title>
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="hero">
+        <div class="hero__text">
+          <p class="eyebrow">Maintained statically · GitHub Pages ready</p>
+          <h1>The Islamic Knowledge Library</h1>
+          <p class="hero__description">
+            A living reference of Qur’anic sciences, refutations, Hadith
+            explanations, comparative religion summaries, and responses to
+            shubuhat—entirely static, fully searchable, and themed for clarity.
+          </p>
+          <div class="hero__actions">
+            <div class="search-input">
+              <span class="search-input__icon" aria-hidden="true">🔍</span>
+              <input
+                id="search-input"
+                type="search"
+                placeholder="Search across Qur’an, Hadith, refutations..."
+                autocomplete="off"
+              />
+            </div>
+            <div class="hero__buttons">
+              <button type="button" data-target="quran">
+                Qur’anic Sciences
+              </button>
+              <button type="button" data-target="refutations">
+                Refuting Doubts
+              </button>
+              <button type="button" data-target="hadith">
+                Hadith Collection
+              </button>
+            </div>
+          </div>
+          <div class="hero__meta">
+            <p>
+              Instant loading from static JSON files · No backend · Fuse.js
+              powering instant search.
+            </p>
+          </div>
+        </div>
+        <div class="hero__pattern" aria-hidden="true">
+          <div class="hero__pattern-circle"></div>
+          <div class="hero__pattern-circle two"></div>
+        </div>
+      </header>
+
+      <section class="layout">
+        <aside class="sidebar">
+          <div class="sidebar__header">
+            <div>
+              <p class="eyebrow">Browse Sections</p>
+              <h2>Categories</h2>
+            </div>
+            <button id="theme-toggle" type="button" aria-label="Toggle theme">
+              🌗
+            </button>
+          </div>
+          <div id="categories-list" class="categories" role="list"></div>
+        </aside>
+
+        <main class="content-panel">
+          <div id="search-results" class="search-results"></div>
+          <div id="article-container" class="article-container">
+            <div class="placeholder-card">
+              <h3>Ready when you are</h3>
+              <p>
+                Pick a category to explore curated titles or use the search box
+                to jump straight to any topic.
+              </p>
+            </div>
+          </div>
+        </main>
+      </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
