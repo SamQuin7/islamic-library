@@ -1,0 +1,17 @@
+[
+  {
+    "id": "hadith-collection-placeholder",
+    "title": "Hadith Collection (Placeholder)",
+    "summary": "Structure for saving narrations, chain commentary, and trust indicators until the full database populates.",
+    "content": "<p>This section is currently serving as a template. Each narraton entry will contain the Arabic and English matn, its sanad, narrator reliability notes, and links to primary hadith databases.</p>\n<p>The goal is to store curated extracts from Sahihayn and other canonical compilations, with annotations that explain the grade, the recommended legal schools, and how it relates to Qurʾānic guidance.</p>",
+    "tags": ["Hadith"],
+    "references": [
+      {
+        "label": "Sahih al-Bukhari",
+        "detail": "Placeholder reference for later mapping."
+      }
+    ],
+    "images": []
+  }
+]
+
